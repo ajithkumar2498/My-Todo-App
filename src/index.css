@@ -1,0 +1,72 @@
+
+body{
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+h1{
+  padding:30px;
+  text-align: center;
+}
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.Input{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  margin-top: 25px;
+  flex-flow: column;  
+}
+input{
+  width:350px;
+  height: 25px;
+  padding:2px;
+  text-align: center;
+  border:1px solid #539165;
+  border-radius: 3px;
+  height:40px;
+}
+.primaryBtn{
+  height: 40px;
+  background-color: #539165;
+  color: white;
+  border-radius: 5px;
+  width: 100px;
+  border: none;
+}
+.card{
+  display:flex;
+  flex-wrap: wrap;
+  background-color: #6f9c60;
+  width:350px;
+  border-radius: 4px;
+  margin:10px;
+  box-shadow: 1px 3px 4px rgb(101, 100, 100);
+}
+.card-header, .card-body{
+  font-family:'Lucida Sans';
+  background-color: #ffffff;
+  color: white;
+  padding:5px;
+}
+.btn-element{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;  
+  cursor: pointer;
+
+}
+.statusfilter{
+ padding-top: 25px;
+ display: flexbox;
+ flex-direction: row-reverse;
+ row-gap: 10px;
+}
+.Task-input{
+  padding-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
