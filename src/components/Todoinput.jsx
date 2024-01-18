@@ -65,7 +65,7 @@ function Todoinput({isCompleted,setIsCompleted}) {
               <div className='Task-input'>
                 <input type="text" placeholder='Task Name'  value={taskName} onChange={(e)=>setTaskName(e.target.value)} /> &nbsp;&nbsp;&nbsp;&nbsp;
                 <input type="text" placeholder='Task Description'  value={taskDescription} onChange={(e)=>setTaskDescription(e.target.value)}/> &nbsp;&nbsp;&nbsp;&nbsp;
-                <button className='primaryBtn' onClick={addTask}>Add Task</button>
+                <button className='primaryBtn' onClick={()=>addTask()}>Add Task</button>
               </div> 
               <div className="statusfilter">
                   <Dropdown>
